@@ -1,5 +1,4 @@
 {
-	"color_scheme": "Packages/User/base16-ocean.dark (SL).tmTheme",
 	"ensure_newline_at_eof_on_save": true,
 	"file_exclude_patterns":
 	[
@@ -14,8 +13,8 @@
 		"__pycache__",
 		".tox"
 	],
-	"font_face": "Source Code Pro Light",
-	"font_size": 23,
+	"font_face": "Menlo-Bold",
+	"font_size": 15,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
@@ -25,11 +24,10 @@
 	"remember_open_folders": true,
 	"rulers":
 	[
-		79
+		120
 	],
 	"scroll_past_end": true,
-	"tab_size": 4,
-	"theme": "Spacegray.sublime-theme",
+	"tab_size": 2,
 	"translate_tabs_to_spaces": true,
 	"trim_automatic_white_space": true,
 	"trim_trailing_white_space_on_save": true

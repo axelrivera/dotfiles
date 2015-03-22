@@ -10,14 +10,13 @@ alias sudo='sudo '
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
 alias d="cd ~/Dropbox"
-alias p="cd ~/Projects/Personal"
-alias bp="cd ~/Projects/Blimp"
+alias ios="cd ~/Dropbox/Projects/iOS"
+alias pol="cd ~/Dropbox/Projects/Polense"
 alias g=git
 alias a='cd /Applications'
 alias o='open .'
 alias ls='ls -lah'
 alias s='subl '
-alias m='mvim'
 
 # Network
 alias dig="dig ANY +noall +answer $1"
@@ -59,10 +58,3 @@ alias chromekill="ps ux | grep '[C]hrome Helper --type=renderer' | grep -v exten
 
 # Lock the screen (when going AFK)
 alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend"
-
-# Other
-alias server='python -m SimpleHTTPServer 8888'
-alias redis='redis-server'
-alias mongodbstart="mongod run --config /usr/local/etc/mongod.conf"
-alias npmls='npm list --depth=0 "$@" 2>/dev/null'
-alias pycclean='find . -name \*.pyc -delete'

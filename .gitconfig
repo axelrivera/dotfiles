@@ -13,14 +13,8 @@
   diff = true
   ui = true
 
-[difftool "gitx"]
-  cmd = gitx
-
 [difftool]
   prompt = false
-
-[diff]
-  tool = gitx
 
 [format]
   pretty=format:%C(yellow)%h%Creset -%C(red)%d%Creset %s %Cgreen(%ar) %C(bold blue)<%an>%Creset
@@ -65,3 +59,9 @@
 
 [url "git@github.com:"]
 	insteadOf = https://github.com/
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path =
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true

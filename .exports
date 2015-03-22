@@ -8,32 +8,8 @@ export PATH="/usr/local/bin:$PATH"
 # Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
 
-# Postgres.app
-export PATH="/Applications/Postgres.app/Contents/Versions/9.3/bin:$PATH"
-
-# NPM
-export PATH="$PATH:/usr/local/share/npm/bin"
-
-# Cabal
-export PATH="$PATH:~/.cabal/bin"
-
 # RVM
 export PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
-
-# Python startup script
-export PYTHONSTARTUP=$HOME/.python-startup.py
-
-# Node.js
-export NODE_PATH=/usr/local/lib/node_modules
-
-# Python virtualenv settings
-export WORKON_HOME=$HOME/.virtualenvs
-export PROJECT_HOME=$HOME/Projects/
-
-# Go
-export GOPATH=$HOME/Projects/Personal/go
-export GOBIN=$HOME/Projects/Personal/go/bin
-export PATH=$PATH:$GOPATH/bin:/usr/local/opt/go/libexec/bin
 
 # grep color
 export GREP_OPTIONS='--color=auto'
@@ -41,19 +17,3 @@ export GREP_OPTIONS='--color=auto'
 # ls color
 export CLICOLOR=1
 export LSCOLORS=dxfxcxdxbxegedabagacad
-
-# Android SDK
-export ANDROID_HOME=/usr/local/opt/android-sdk
-
-# Docker
-export DOCKER_HOST=tcp://$(boot2docker ip 2>/dev/null):2376
-export DOCKER_CERT_PATH=$HOME/.boot2docker/certs/boot2docker-vm
-export DOCKER_TLS_VERIFY=1
-
-# Wheel
-export PIP_USE_WHEEL="true"
-export PIP_WHEEL_DIR="$HOME/.pip/wheels"
-export PIP_FIND_LINKS="$HOME/.pip/wheels"
-
-# Default editor
-export EDITOR='macvim'
