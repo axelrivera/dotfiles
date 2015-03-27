@@ -17,3 +17,7 @@ export GREP_OPTIONS='--color=auto'
 # ls color
 export CLICOLOR=1
 export LSCOLORS=dxfxcxdxbxegedabagacad
+
+# JAVA 8 needs to be installed for this to work
+export JAVA_HOME=`/usr/libexec/java_home -v 1.8`
+export JAVA_OPTS="-Djava.security.egd=file:/dev/./urandom"
