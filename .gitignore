@@ -30,6 +30,7 @@ Temporary Items
 # Additional Entries
 
 .rvmrc
+.ruby-gemset
 .env
 
 # XCode (and ancestors) per-user config (very noisy, and not relevant)
