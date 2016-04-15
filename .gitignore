@@ -42,7 +42,6 @@ Temporary Items
 *.pbxuser
 # Xcode 4
 xcuserdata/
-xcshareddata/
 project.xcworkspace/
 # Generated files
 VersionX-revision.h
@@ -50,6 +49,8 @@ VersionX-revision.h
 build/
 #*.[oa]
 *.o
+*.ipa
+*.dSYM
 # Other source repository archive directories (protects when importing)
 .hg
 .svn
