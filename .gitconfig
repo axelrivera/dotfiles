@@ -1,6 +1,6 @@
 [user]
-  name = Axel Rivera
-  email = axel@axelrivera.me
+	name = Axel Rivera
+	email = axel@axelrivera.me
 
 [core]
 	excludesfile = /Users/arn/.gitignore
@@ -65,3 +65,5 @@
 [mergetool "sourcetree"]
 	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
 	trustExitCode = true
+[commit]
+	template = /Users/arn/.stCommitMsg

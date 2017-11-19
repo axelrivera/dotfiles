@@ -1,6 +1,8 @@
 # Global gitignore
 # Created by https://www.gitignore.io
 
+Forwardfile
+
 # Ignore secret dotfile
 .secret
 

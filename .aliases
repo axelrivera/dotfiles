@@ -18,6 +18,9 @@ alias a='cd /Applications'
 alias o='open .'
 alias ls='ls -lah'
 alias s='subl '
+alias cdm='tmuxinator start campodata-mock'
+alias cdd='tmuxinator start campodata-dev'
+alias pico='nano'
 
 # Network
 alias dig="dig ANY +noall +answer $1"
